@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!----Favicon---->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!----Normalize CSS File-->
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <!----Main CSS File---->
+    <link rel="stylesheet" href="CSS/main.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+
+  <body>
+    <div id="result">
+      <div id="result-container">
+        <div id="your-result">
+          <h1>Your Result</h1>
+          <div id="score">76</div>
+          <div id="description">
+            <h1>Great</h1>
+            <p>
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+        <div id="summary">
+          <h1>Summary</h1>
+          <div id="reaction">
+            <div class="left-side">
+              <img src="images/icon-reaction.svg" alt="!!" />
+              <span>Reaction</span>
+            </div>
+            <div class="right-side">
+              <span id="reaction-score">80</span>
+              <span>/ 100</span>
+            </div>
+          </div>
+          <div id="memory">
+            <div class="left-side">
+              <img src="images/icon-memory.svg" alt="!!" />
+              <span>Memory</span>
+            </div>
+            <div class="right-side">
+              <span id="memory-score">92</span>
+              <span>/ 100</span>
+            </div>
+          </div>
+          <div id="verbal">
+            <div class="left-side">
+              <img src="images/icon-verbal.svg" alt="!!" />
+              <span>Verbal</span>
+            </div>
+            <div class="right-side">
+              <span id="verbal-score">61</span>
+              <span>/ 100</span>
+            </div>
+          </div>
+          <div id="visual">
+            <div class="left-side">
+              <img src="images/icon-visual.svg" alt="!!" />
+              <span>Visual</span>
+            </div>
+            <div class="right-side">
+              <span id="visual-score">72</span>
+              <span>/ 100</span>
+            </div>
+          </div>
+          <button>Continue</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
