@@ -100,7 +100,7 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   text-align: center;
   width: 245px;
 }
-#result > #result-container > #your-result > #description > h1 {
+#result > #result-container > #your-result > #description > h2 {
   font-size: 32px;
   color: white;
 }
@@ -116,7 +116,7 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 40px;
   font-weight: 600;
 }
-#result > #result-container > #summary > h1 {
+#result > #result-container > #summary > h2 {
   font-size: x-large;
   color: #282e46;
   margin-bottom: 30px;
