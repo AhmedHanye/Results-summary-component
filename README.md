@@ -28,7 +28,3 @@ You can see a live preview of this component [here](https://ahmedhanye.github.io
 2. Open the `index.html` file in your web browser to see the component in action.
 
 Feel free to modify and integrate this component into your web project as needed.
-
-## Screenshots
-
-![Results Summary Component](screenshot.png)
