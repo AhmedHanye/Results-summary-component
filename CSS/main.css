@@ -4,6 +4,15 @@
 }
 
 /* Global Rules */
+/* Hanken_Grotesk */
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("../Hanken_Grotesk/HankenGrotesk-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   font-family: "Hanken Grotesk", sans-serif;
   margin: 0;
