@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!----Favicon---->
+    <!-- Favicon -->
     <link
       rel="icon"
       type="image/png"
@@ -17,17 +17,18 @@
       href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
       rel="stylesheet"
     />
-    <!----Normalize CSS File-->
+    <!-- Normalize CSS File -->
     <link rel="stylesheet" href="CSS/normalize.css" />
-    <!----Main CSS File---->
+    <!-- Main CSS File -->
     <link rel="stylesheet" href="CSS/main.css" />
     <title>Frontend Mentor | Results summary component</title>
   </head>
 
   <body>
-    <div id="result">
+    <a href="#result" id="skip-to-content">Skip to main content</a>
+    <main id="result" role="main">
       <div id="result-container">
-        <div id="your-result">
+        <section id="your-result">
           <h1>Your Result</h1>
           <div id="score">76</div>
           <div id="description">
@@ -37,12 +38,12 @@
               tests.
             </p>
           </div>
-        </div>
-        <div id="summary">
+        </section>
+        <section id="summary">
           <h1>Summary</h1>
           <div id="reaction">
             <div class="left-side">
-              <img src="images/icon-reaction.svg" alt="!!" />
+              <img src="images/icon-reaction.svg" alt="reaction" />
               <span>Reaction</span>
             </div>
             <div class="right-side">
@@ -52,7 +53,7 @@
           </div>
           <div id="memory">
             <div class="left-side">
-              <img src="images/icon-memory.svg" alt="!!" />
+              <img src="images/icon-memory.svg" alt="memory" />
               <span>Memory</span>
             </div>
             <div class="right-side">
@@ -62,7 +63,7 @@
           </div>
           <div id="verbal">
             <div class="left-side">
-              <img src="images/icon-verbal.svg" alt="!!" />
+              <img src="images/icon-verbal.svg" alt="verbal" />
               <span>Verbal</span>
             </div>
             <div class="right-side">
@@ -72,7 +73,7 @@
           </div>
           <div id="visual">
             <div class="left-side">
-              <img src="images/icon-visual.svg" alt="!!" />
+              <img src="images/icon-visual.svg" alt="visual" />
               <span>Visual</span>
             </div>
             <div class="right-side">
@@ -81,8 +82,8 @@
             </div>
           </div>
           <button>Continue</button>
-        </div>
+        </section>
       </div>
-    </div>
+    </main>
   </body>
 </html>
