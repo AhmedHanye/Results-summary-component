@@ -11,6 +11,7 @@
     format("truetype");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 * {
@@ -155,19 +156,19 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding-left: 10px;
 }
 #result > #result-container > #summary > #reaction > .left-side > span {
-  color: #e07b71;
+  color: #d63323;
 }
 #result > #result-container > #summary > #memory > .left-side > span {
-  color: #fcc046;
+  color: #9d6900;
 }
 #result > #result-container > #summary > #verbal > .left-side > span {
-  color: #51ae96;
+  color: #008230;
 }
 #result > #result-container > #summary > #visual > .left-side > span {
   color: #5a63d9;
 }
 #result > #result-container > #summary .right-side > span:last-child {
-  color: gray;
+  color: #696969;
   padding-left: 2px;
 }
 #result > #result-container > #summary > button {
